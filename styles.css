@@ -1,0 +1,90 @@
+.titulo{
+    color: black;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+body{
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+}
+
+header>.container{
+    background-color: rgb(43, 38, 38);
+    width: 200px;
+    height: 200px;
+    margin: 2px;
+    border-radius: 5%;
+    border-color: rgb(81, 25, 233);
+    border-style: solid;
+    float: left;
+    text-align: center;
+}
+
+.controllerX{
+    margin-bottom: 30%;
+}
+
+.controllerY{
+    margin-bottom: 0%;
+}
+
+.sliderX{
+    width: 100px;
+    
+}
+
+.sliderY{
+    width: 80px;
+    height: 100px;
+    margin: 0;
+    transform: rotate(90deg);
+}
+
+.num{
+    margin: 0;
+}
+
+select{
+    width: 150px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.square{
+    height: 150px;
+    width: 150px;
+    border-radius: none;
+}
+
+.circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+.rhombus{
+    height: 150px;
+    width: 150px;
+    transform: rotate(45deg);
+}
+
+.hex{
+    width: 100px;
+    margin-top: 15%;
+}
+
+section{
+    height: 150px;
+    width: 150px;
+    background: red;
+    position: relative;
+    margin-top: 70px;
+}
+
+
